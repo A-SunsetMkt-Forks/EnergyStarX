@@ -10,13 +10,13 @@ namespace EnergyStarX.ViewModels;
 
 public partial class HomeViewModel : ObservableRecipient
 {
-    private readonly ImageSource ThrottlingIcon = new BitmapImage(new Uri("ms-appx:///Assets/InApp/CheckButton.png"));
+    private readonly ImageSource ThrottlingIcon = new SvgImageSource(new Uri("ms-appx:///Assets/InApp/CheckButton.svg"));
     private readonly string ThrottlingDescription = "Home_Throttling_Description".ToLocalized();
 
-    private readonly ImageSource NotThrottlingACIcon = new BitmapImage(new Uri("ms-appx:///Assets/InApp/PauseButton.png"));
+    private readonly ImageSource NotThrottlingACIcon = new SvgImageSource(new Uri("ms-appx:///Assets/InApp/PauseButton.svg"));
     private readonly string NotThrottlingACDescription = "Home_NotThrottlingAC_Description".ToLocalized();
 
-    private readonly ImageSource ThrottlingPausedIcon = new BitmapImage(new Uri("ms-appx:///Assets/InApp/PauseButton.png"));
+    private readonly ImageSource ThrottlingPausedIcon = new SvgImageSource(new Uri("ms-appx:///Assets/InApp/PauseButton.svg"));
     private readonly string ThrottlingPausedDescription = "Home_ThrottlingPaused_Description".ToLocalized();
 
     private readonly DispatcherQueue dispatcherQueue = DispatcherQueue.GetForCurrentThread();

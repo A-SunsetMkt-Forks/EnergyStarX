@@ -61,10 +61,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Update="Assets\InApp\CheckButton.png">
+    <Content Update="Assets\InApp\CheckButton.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Update="Assets\InApp\PauseButton.png">
+    <Content Update="Assets\InApp\PauseButton.svg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Update="Assets\InApp\Task_Manager_Leaf.jpg">

@@ -94,8 +94,8 @@
 - imbushuo：https://github.com/imbushuo
 - 应用图标：
   - https://www.flaticon.com/free-icon/star_3103390
-  - https://www.flaticon.com/free-icon/accept_4303945
-  - https://www.flaticon.com/free-icon/pause-button_561920
+  - https://icons8.com/icon/70yRC8npwT3d/ok
+  - https://icons8.com/icon/bBryBDQG6NDr/pause-button
 
 
 # 如何贡献

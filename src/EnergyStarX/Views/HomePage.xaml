@@ -13,14 +13,14 @@
         <RelativePanel Grid.Row="0" Margin="{StaticResource NavigationViewPageContentMargin}">
             <Image
                 x:Name="StatusIcon"
-                Width="114"
-                Height="114"
+                Width="128"
+                Height="128"
                 RelativePanel.AlignHorizontalCenterWithPanel="True"
                 RelativePanel.AlignVerticalCenterWithPanel="True"
                 Source="{x:Bind ViewModel.StatusIcon, Mode=OneWay}" />
 
             <TextBlock
-                Margin="0,24,0,0"
+                Margin="0,20,0,0"
                 FontSize="18"
                 RelativePanel.AlignHorizontalCenterWithPanel="True"
                 RelativePanel.Below="{x:Bind StatusIcon}"
