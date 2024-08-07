@@ -14,7 +14,7 @@
     <picture>
       <source srcset="https://get.microsoft.com/images/en-US%20light.svg" media="(prefers-color-scheme: dark)" />
       <source srcset="https://get.microsoft.com/images/en-US%20dark.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img src="https://get.microsoft.com/images/en-US%20dark.svg" width=144 />
+      <img src="https://get.microsoft.com/images/en-US%20dark.svg" width=192 />
     </picture>
   </a>
 </p>
